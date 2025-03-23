@@ -43,7 +43,7 @@ export default function CallToAction() {
             What&apos;s Next for Dot Protocol
           </h2>
           <p className="text-2xl text-gray-200 font-semibold">
-            Join the Ecosystem that's Redefining Blockchain Innovation, Today and Beyond
+            Join the Ecosystem that&apos;s Redefining Blockchain Innovation, Today and Beyond
           </p>
         </motion.div>
 

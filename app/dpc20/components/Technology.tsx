@@ -34,7 +34,7 @@ export default function Technology() {
           className="max-w-4xl mx-auto text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary-300 to-primary bg-clip-text text-transparent">
-            Dot Protocol's Technology
+            Dot Protocol&apos;s Technology
           </h2>
           <p className="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-gray-100 to-gray-300 bg-clip-text text-transparent">
             Advanced blockchain infrastructure{' '}
