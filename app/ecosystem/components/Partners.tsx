@@ -2,7 +2,16 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-const partners = [
+interface Partner {
+  name: string;
+  logo: string;
+  description: string;
+  website: string;
+  bgClass: string;
+  bgImage?: string;
+}
+
+const partners: Partner[] = [
   {
     name: "Kibouor",
     logo: "/logo-DCtXmDSQ.png",
@@ -63,9 +72,7 @@ export default function Partners() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className={`relative rounded-xl overflow-hidden group ${
-                partner.bgImage ? 'h-[300px]' : 'h-[250px]'
-              } cursor-pointer transform transition-all duration-300 hover:-translate-y-2`}
+              className={`relative rounded-xl overflow-hidden group h-[250px] cursor-pointer transform transition-all duration-300 hover:-translate-y-2`}
             >
               <div className={`absolute inset-0 ${partner.bgClass}`} />
               
