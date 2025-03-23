@@ -109,7 +109,7 @@ export default function FAQ() {
           className="max-w-2xl mx-auto mt-16 text-center"
         >
           <p className="text-gray-300 mb-6">
-            Can't find what you're looking for? Visit our comprehensive help center.
+            Can&apos;t find what you&apos;re looking for? Visit our comprehensive help center.
           </p>
           <a
             href="/developers/docs/help-center"

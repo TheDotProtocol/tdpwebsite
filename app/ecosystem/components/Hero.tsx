@@ -26,7 +26,7 @@ export default function Hero() {
             className="text-xl md:text-2xl max-w-4xl mx-auto space-y-8"
           >
             <p className="text-white font-semibold leading-relaxed">
-              The Dot Protocol Ecosystem is not just a blockchain platform; it's a dynamic, 
+              The Dot Protocol Ecosystem isn&apos;t just a blockchain platform; it&apos;s a dynamic, 
               futuristic, and interconnected web of innovation that redefines how industries 
               interact with decentralized technology.
               <span className="block mt-2 text-primary-200">
@@ -38,7 +38,7 @@ export default function Hero() {
               capabilities, the Dot Protocol Ecosystem represents the future of blockchain — 
               a future where technology adapts, evolves, and transforms industries in real time.
               <span className="block mt-2 text-primary-200">
-                Building tomorrow's blockchain, today.
+                Building tomorrow&apos;s blockchain, today.
               </span>
             </p>
           </motion.div>

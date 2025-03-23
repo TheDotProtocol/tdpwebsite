@@ -40,7 +40,7 @@ export default function CallToAction() {
           className="max-w-4xl mx-auto text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary-300 to-primary bg-clip-text text-transparent">
-            Step into the Future with Dot Protocol
+            What&apos;s Next for Dot Protocol
           </h2>
           <p className="text-2xl text-gray-200 font-semibold">
             Join the Ecosystem that's Redefining Blockchain Innovation, Today and Beyond

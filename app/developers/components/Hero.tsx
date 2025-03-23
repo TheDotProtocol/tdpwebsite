@@ -29,7 +29,7 @@ export default function Hero() {
               Explore the tools, APIs, SDKs, and resources to build cutting-edge dApps, 
               smart contracts, and DeFi projects on the Dot Protocol Blockchain.
               <span className="block mt-2 text-primary-200">
-                Whether you're a blockchain novice or a seasoned developer, our documentation 
+                Whether you&apos;re a blockchain novice or a seasoned developer, our documentation 
                 will guide you every step of the way.
               </span>
             </p>

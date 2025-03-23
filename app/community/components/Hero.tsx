@@ -29,8 +29,8 @@ export default function Hero() {
               Building the Future, Together
               <span className="block mt-4 text-gray-300">
                 Join our global community of innovators, creators, and disruptors shaping 
-                the next era of blockchain technology. Whether you're a developer, trader, 
-                validator, or simply curious, there's a place for you in the Dot Protocol ecosystem.
+                the next era of blockchain technology. Whether you&apos;re a developer, trader, 
+                validator, or simply curious, there&apos;s a place for you in the Dot Protocol ecosystem.
               </span>
             </p>
           </motion.div>
