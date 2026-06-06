@@ -9,8 +9,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-dark text-white relative">
-      {/* Video Background */}
+    <div className="min-h-screen bg-dark text-white relative overflow-x-hidden">
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-dark-500/60 z-10" />
         <video
@@ -24,7 +23,6 @@ export default function Layout({ children }: LayoutProps) {
         </video>
       </div>
 
-      {/* Content */}
       <div className="relative z-10">
         <Navigation />
         <main>{children}</main>

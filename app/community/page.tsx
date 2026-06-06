@@ -10,10 +10,8 @@ import Achievements from './components/Achievements';
 import CallToAction from './components/CallToAction';
 
 export default function CommunityPage() {
-  console.log('Community page rendered');
-
   return (
-    <main className="pt-20">
+    <>
       <Hero />
       <WhyJoin />
       <JoinConversation />
@@ -23,6 +21,6 @@ export default function CommunityPage() {
       <Rewards />
       <Achievements />
       <CallToAction />
-    </main>
+    </>
   );
 } 

@@ -7,28 +7,33 @@ export default function Hero() {
       <div className="container mx-auto px-4 relative z-20">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary-300 to-primary bg-clip-text text-transparent tracking-tight"
           >
             Redefining Blockchain, Reinventing Possibilities
           </motion.h1>
           
           <motion.p 
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-white mb-8 leading-relaxed font-semibold tracking-wide drop-shadow-lg"
+            className="text-xl md:text-2xl text-white mb-6 leading-relaxed font-semibold tracking-wide drop-shadow-lg"
           >
             The Dot Protocol – A next-gen blockchain protocol with Proof of Authority, 
             QBFT consensus, and the groundbreaking DPC20 token standard.
           </motion.p>
+
+          <motion.p
+            initial={false}
+            animate={{ opacity: 1, y: 0 }}
+            className="inline-block mb-8 px-5 py-2 rounded-full border border-primary/30 bg-dark-200/40 backdrop-blur-sm text-sm md:text-base text-primary-200 tracking-wide"
+          >
+            The Dot Protocol Co., Ltd. Thailand is a unit of AR Holdings Group Corp
+          </motion.p>
           
           <motion.div 
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
