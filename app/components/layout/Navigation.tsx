@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 const navigation = [
   { name: 'What is Dot Protocol?', href: '/' },
+  { name: 'About Us', href: '/about' },
   { name: 'DPC20 Standard', href: '/dpc20' },
   { name: 'Presale', href: '/presale' },
   { name: 'Ecosystem', href: '/ecosystem' },
